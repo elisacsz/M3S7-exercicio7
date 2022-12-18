@@ -36,5 +36,5 @@ console.log(media.toFixed(2));
 if (media >= 7){
     console.log("O aluno foi aprovado.");    
 } else {
-    console.log(`O aluno não foi aprovado com a nota ${media}.`);    
+    console.log(`O aluno não foi aprovado com a nota ${media.toFixed(2)}.`);    
 }
