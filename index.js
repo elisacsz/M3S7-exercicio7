@@ -22,11 +22,9 @@ const notas = {
     }
 
 let somaNotas = 0;
-let x = 0;
 
 for (let nota in notas) {
     somaNotas += notas[nota];
-    x++;
 }
 
 console.log(somaNotas.toFixed(2));
